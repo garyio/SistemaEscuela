@@ -55,11 +55,15 @@
                     <!--/.nav-collapse -->
                 </div>
             </nav>
+            <div style="padding-top:20px">
 
 
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
 
+            </div>
             <!-- Bootstrap core JavaScript
    ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->

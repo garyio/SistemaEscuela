@@ -31,13 +31,13 @@ namespace SistemaEscuela
                     // redirecionaremos a la pagina de Inicio
                     
                     Response.Redirect("Inicio.aspx");
+                    lblEstado.Text = "Usuario Valido.";
                 }
             }
             catch (Exception)
             {
                 lblEstado.Text = "Usuario/Clave Incorrectos";
             }
-
 
         }
     }
